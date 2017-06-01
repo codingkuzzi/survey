@@ -16,10 +16,41 @@
             <label for="name">What is your name?</label>
             <input id="name" class="form-control" type="text">
           </div>
+          <label for="beverage">Choose a drink!</label>
+          <select class="form-control" id="beverage">
+            <option>Coffee</option>
+            <option>Tea</option>
+            <option>Kombucha</option>
+            <option>Water</option>
+          </select>
+          <label for="radio">Favorite music?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="chocolate" checked>
+              Country
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="vanilla">
+              More Country
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="cookiesandcream">
+              Usher
+            </label>
+          </div>
+          <div class="form-group">
+           <label for="color">What is your favorite color?</label>
+           <input id="color" class="form-control" type="color">
+          </div>
           <button type="submit" class="btn">Submit!</button>
         </form>
       <div id="output">
       </div>
+
     </div>
   </body>
 </html>
